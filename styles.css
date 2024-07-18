@@ -1,0 +1,83 @@
+*{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #f4f4f4 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+.navbar-nav{
+margin-left: 900px;
+}
+.navbar-nav{
+    margin-left: 1000px;
+    }
+.jumbotron {
+    background: url('e-learning-concept-illustration-young-people-using-laptop-tablet-pc-distance-studying-education-guys-young-women-sitting-big-book-reading-self-education_126283-1687.avif') no-repeat center center;
+    background-size: cover;
+    color: rgb(51, 72, 206);
+    height: 100vh;
+}
+#features{
+    background-color: rgba(128, 128, 128, 0.022);
+}
+.col-md-4 h4{
+    color: rgb(51, 72, 206);;
+}
+.col-md-4 p{
+      color: gray;
+}
+#features .feature-box h4 {
+    margin-top: 10px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#contactForm .form-control {
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(47, 47, 172);
+    color: aliceblue;
+}
+#sha{
+    border: 10px rgba(0, 0, 255, 0.323);
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 5px solid #007bff;
+}
+
+footer p {
+    margin: 0;
+}

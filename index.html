@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Tutor Class</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Our Tutor Class</h1>
+            <p class="lead">Empower your learning journey with our comprehensive online courses.</p>
+            <a href="#features" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </section>
+ 
+        <section id="features" >
+            <div class="container">
+                <h2   class="text-center" >Unique Features</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-box text-center">
+                          
+                            <h4>Interactive Video Lessons</h4>
+                            <p>Engage with high-quality video lessons that make learning fun and effective.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box text-center">
+                        
+                            <h4>Comprehensive Course Material</h4>
+                            <p>Access a wide range of resources, including PDFs, quizzes, and assignments.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box text-center">
+                            
+                            <h4>Progress Tracking</h4>
+                            <p>Monitor your progress with our detailed tracking and reporting features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="courses" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Our Courses</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="introprogramming.png" class="card-img-top" alt="Course 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Course 1: Introduction to Programming</h5>
+                                <p class="card-text">Learn the basics of programming with this introductory course.</p>
+                               <a href="course.html"><button>View course</button></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="Data Science Long.png" class="card-img-top" alt="Course 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Course 2: Data Science Essentials</h5>
+                                <p class="card-text">Get started with data science and learn to analyze and visualize data.</p>
+                               <a href="data.html"> <button>View course</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg" class="card-img-top" alt="Course 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Course 3: Web Development</h5>
+                                <p class="card-text">Build dynamic websites with our comprehensive web development course.</p>
+                              <a href="web.html"> <button>View course</button></a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5 bg-light">
+            <div class="container" id="sha">
+                <h2 class="text-center">Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+     <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Tutor Class. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
